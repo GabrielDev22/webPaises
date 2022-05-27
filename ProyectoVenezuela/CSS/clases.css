@@ -65,8 +65,9 @@ nav {
 img {
     width:50%;
     height: auto;
-
-    
+}
+.imagenes {
+    text-align: center;
 }
 .fotos {
     border: 1.5px solid black;
@@ -96,6 +97,7 @@ h1 {
 h2 { 
     color:black;
     font-size: 35px;
+    text-align: center;
     background-color:rgb(80, 189, 226);
     border: 0.5px solid rgb(81, 79, 79);
 }
