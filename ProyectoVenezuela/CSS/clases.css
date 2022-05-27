@@ -1,0 +1,146 @@
+@import url(https://fonts.google.com/specimen/Montserrat?category=Sans+Serif);
+
+@media screen and (max-width: 800px){
+     .menu {
+         width: 100%;
+     }                                    
+    
+}
+
+@media screen and (max-width: 400px){
+    .contenedor{
+        width: 100%;
+    }                                    
+   
+}
+
+.contenedor {
+      width:80%;
+      max-width: 1000px;
+}
+
+header {
+    font-family: Helvetica;
+    width: 100%;
+    margin: 1%;
+}
+ul {
+    list-style:none;
+}
+#menu li>a {
+    background-color: rgb(195, 63, 136);
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    text-align: center;
+    min-width: 100px;
+    border: 1px solid rgb(54, 52, 52);
+}
+#menu li>a:hover {
+    color: black;
+    background-color: #043cf6;   
+}
+#menu>li {
+    float: left;
+    text-align: center;
+}
+#menu>li>ul {
+    display:none;
+}
+#menu>li:hover>ul {
+    display:block;
+}
+nav {
+    width: 122%;
+    height:auto;
+    margin-right: 10%;
+    background-color:rgb(80, 189, 226);
+    border: 1px solid black;  
+}
+
+img {
+    width:50%;
+    height: auto;
+
+    
+}
+.fotos {
+    border: 1.5px solid black;
+}
+.iconos {
+    width: 45px;
+    vertical-align: middle;
+}
+.icono2 {
+    width: 45px;
+    text-shadow: #333;
+}
+body { 
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: 0.5px solid white;
+    font-family: 'Monstserrat';
+    font-size: 20px;
+    box-sizing: border-box;
+}
+h1 { 
+    color:black;
+    font-size: 50px;
+    background-color:rgb(80, 189, 226);
+    border: 0.5px solid rgb(81, 79, 79);
+}
+h2 { 
+    color:black;
+    font-size: 35px;
+    background-color:rgb(80, 189, 226);
+    border: 0.5px solid rgb(81, 79, 79);
+}
+
+main {
+    width: 110%;
+    margin-left: 10%;
+    margin-right: 10%;
+    }
+
+footer {
+         width: 121%;
+         height:auto;
+         margin:2%;
+         background-color: powderblue;
+         border: 1px solid black;
+}
+
+center {
+      width:100%;
+      height:auto;
+}
+
+input,textarea,select {
+    margin-bottom: 50px;
+    width: 150px;
+    height: 35px;
+    background-color: aliceblue;
+    color: black;
+    border: 1px solid black;
+    margin-left: 10px;
+    
+}
+
+textarea {
+    width: 300px;
+    height: 100px;
+    background-color: aliceblue;
+    border: 1px solid black;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    background-color: aliceblue;
+    border: 1px solid #333; 
+}
+
