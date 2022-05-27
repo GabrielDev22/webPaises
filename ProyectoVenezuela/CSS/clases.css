@@ -13,6 +13,7 @@
     }                                    
    
 }
+/* encabezado de la pagina */
 
 .contenedor {
       width:80%;
@@ -59,8 +60,12 @@ nav {
     height:auto;
     margin-right: 10%;
     background-color:rgb(80, 189, 226);
-    border: 1px solid black;  
+    border: 1px solid black;
+    border-radius: 7px/8px;
+    box-shadow: -3px -5px rgb(119, 13, 218);
 }
+
+/* IMAGENES Y ICONOS DE LA PAGINA */
 
 img {
     width:50%;
@@ -80,6 +85,9 @@ img {
     width: 45px;
     text-shadow: #333;
 }
+
+/* Titulos y cuerpo de la pagina*/
+
 body { 
     background-color: rgb(255, 255, 255);
     color: black;
@@ -87,19 +95,29 @@ body {
     font-family: 'Monstserrat';
     font-size: 20px;
     box-sizing: border-box;
+
 }
 h1 { 
     color:black;
     font-size: 50px;
+    border-radius: 5px 8px;
+    text-decoration-line:underline;
     background-color:rgb(80, 189, 226);
     border: 0.5px solid rgb(81, 79, 79);
+    border-radius: 7px/8px;
+    box-shadow: -3px -5px rgb(119, 13, 218);
+    text-shadow: 1px -2px 20px rgb(119, 13, 218);
 }
 h2 { 
     color:black;
     font-size: 35px;
+    text-decoration-line:underline;
     text-align: center;
     background-color:rgb(80, 189, 226);
     border: 0.5px solid rgb(81, 79, 79);
+    border-radius: 7px/8px;
+    box-shadow: -3px -5px rgb(119, 13, 218);
+    text-shadow: 1px -2px 20px rgb(119, 13, 218);
 }
 
 main {
@@ -108,6 +126,8 @@ main {
     margin-right: 10%;
     }
 
+/* ULTIMA PARTE DE LA PAGINA */
+
 footer {
          width: 121%;
          height:auto;
@@ -115,6 +135,8 @@ footer {
          background-color: powderblue;
          border: 1px solid black;
 }
+
+/* Formulario */
 
 center {
       width:100%;
