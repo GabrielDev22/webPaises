@@ -11,3 +11,6 @@ if (edad <30) {
     console.log('Bienvenido.Pasala bien')
     alert('Bienvenido.Pasala bien')
 }
+
+
+
